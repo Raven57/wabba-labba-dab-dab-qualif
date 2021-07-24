@@ -9,7 +9,7 @@ This project is not "COMPLETE" yet.
 The home page may shows an error since I use Math random to get the list, please hit refresh if it happens. 
 
 You may visit the hosted web at https://wabalabadabdab.bericxz.tech
-
+just bear in mind that the server you are using above is a private server with limited bandwidth.
 ## For best performance please F12 and select Iphone X
 
 Home = List Page

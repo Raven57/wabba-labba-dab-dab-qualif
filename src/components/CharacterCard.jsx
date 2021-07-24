@@ -56,7 +56,7 @@ function CharacterCard(props){
                     <StarIcon className='text-rm-pink w-14 mr-3'/>
                 </button>
             }
-            {status==0&&
+            {status!=1&&
                 <button onClick={handleBtn}>
                     <StarIcon className='text-rm-pink-pale w-14 mr-3'/>
                 </button>
