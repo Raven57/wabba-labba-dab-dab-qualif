@@ -8,7 +8,9 @@ function CharacterCard(props){
     let favs = props.favs
     const index = favs?.indexOf(parseInt(id));
     const [status,setStatus] = useState(favs?.includes(parseInt(id)));
-
+    if(favs==null){
+        favs = []
+    }
     
     const {loading,data}= useQuery(GET_CHARACTER_BYID,{
         variables:{id:id}

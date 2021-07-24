@@ -6,10 +6,9 @@ function Favourite(){
     
     let favs = localStorage.getItem('fav')
     favs = JSON.parse(favs)
-    
     return(
-        <div className='flex flex-col bg-rm-orange h-full'>
-            {!favs &&
+        <div className={favs.length>5? 'flex flex-col bg-rm-orange h-full' : 'flex flex-col bg-rm-orange h-screen' }>
+            {favs.length==0 &&
             <h1 className='pt-80 text-center h-screen text-white text-3xl font-semibold'>
             Favourite is empty!                      
         </h1>}
