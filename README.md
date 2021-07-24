@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+# WABBA LABBA DAB DAB
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This is just a simple front-end project using reactjs and tailwindcss with API from 
+https://rickandmortyapi.com/
+
+This project is not "COMPLETE" yet. 
+The home page may shows an error since I use Math random to get the list, please hit refresh if it happens. 
+
+You may visit the hosted web at https://wabalabadabdab.bericxz.tech
+
+## For best performance please F12 and select Iphone X
+
+Home = List Page
+
+Detail page = click photo from list, able to add / remove favorite
+
+Search = Onchange search
+
+Favorite page = Remove from favorite or re-add
 
 ## Available Scripts
 
